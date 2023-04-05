@@ -1,0 +1,8 @@
+Let
+     Ano = 2021
+     InicioAno =#date(Ano,1,1),
+     InicioSemana = Date.StartOfWeek(InicioAno)
+     DiasParaInicioSemana = Duration.Days(InicioAno - InicioSemana),
+     PrimeiroDia = if DiasParaIncioSemana > 3 then Date.AddDays(IncioSemana, 7) Else IncioSemana
+ In
+    PrimeiroDia
